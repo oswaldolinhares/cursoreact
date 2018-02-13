@@ -9,5 +9,15 @@ module.exports = {
   devServer: {
     port: 3000,
     contentBase: './public'
+  },
+  module: {
+    loaders: [{
+      test: /.js?$/,
+      loader: 'babel-loader',
+      excclude: /node_modules/,
+      query: {
+        presets: ['es2015']
+      }
+    }]
   }
 }
