@@ -7,6 +7,9 @@ ReactDOM.render(
 
     <Family lastName = 'Silva'>
       <Member name = 'Guilherme' />
+      <Member name = 'Oswaldo' />
+      <Member name = 'Diego' />
+      <Member name = 'Juliana' />
     </Family>
     , document.getElementById('app'))
 
